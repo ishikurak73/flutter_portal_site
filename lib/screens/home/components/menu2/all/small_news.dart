@@ -20,7 +20,7 @@ class SmallNews extends StatelessWidget {
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("「もののけ姫」や「千と千尋」..ジブリ４作品の再上映。異例のヒット",
+                    Text("４作品の再上映。異例のヒット",
                         style: TextStyle(
                             fontSize: 16.0,
                             fontWeight: FontWeight.bold,

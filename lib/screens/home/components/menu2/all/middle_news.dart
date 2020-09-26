@@ -20,13 +20,13 @@ class MiddleNews extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Image.asset("assets/images/collecting.jpeg"),
-                    Text("「100万円たまる貯金箱」を６年かけて満杯に　2000日の苦労を本人い聞いた",
+                    Text("「100万円たまる貯金箱」を６年かけて満杯に　苦労を聞いた",
                         style: TextStyle(
                             fontSize: 16.0,
                             fontWeight: FontWeight.bold,
                             color: Color(0xff333333))),
                     SizedBox(width: 10),
-                    Text("Jタウンネット",
+                    Text("タウンネット",
                         style: TextStyle(
                             fontSize: 12.0,
                             color: Colors.grey,
@@ -39,13 +39,13 @@ class MiddleNews extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Image.asset("assets/images/collecting.jpeg"),
-                    Text("「当時は睡眠２時間」元ZONE・MAI解散、再結成、引退。。。紆余曲折から。。。",
+                    Text("解散、再結成、引退。。。紆余曲折から。。。",
                         style: TextStyle(
                             fontSize: 16.0,
                             fontWeight: FontWeight.bold,
                             color: Color(0xff333333))),
                     SizedBox(width: 10),
-                    Text("道新スポーツ",
+                    Text("スポーツ",
                         style: TextStyle(
                             fontSize: 12.0,
                             color: Colors.grey,

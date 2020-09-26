@@ -28,7 +28,7 @@ class SearchBar extends StatelessWidget {
                   child: Text("検索",
                       style: TextStyle(
                           color: Colors.white,
-                          fontSize: 16,
+                          fontSize: 14,
                           fontWeight: FontWeight.bold)),
                   onPressed: () => {}))
         ],

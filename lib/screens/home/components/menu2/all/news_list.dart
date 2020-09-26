@@ -11,9 +11,12 @@ class NewsList extends StatelessWidget {
                 bottom: BorderSide(color: Color(0xffc5c5c5), width: 0.3))),
         child: Row(children: [
           Expanded(
-            flex: 1,
-            child: Image.asset("assets/images/150x150.png"),
-          ),
+              flex: 1,
+              child: SizedBox(
+                width: 50.0,
+                height: 50.0,
+                child: Image.asset("assets/images/150x150.png"),
+              )),
           SizedBox(width: 10),
           Expanded(
               flex: 5,

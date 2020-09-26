@@ -17,7 +17,7 @@ class BigNews extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 color: Color(0xff333333))),
         SizedBox(width: 10),
-        Text("CNN.co.jp",
+        Text("NN.co.jp",
             style: TextStyle(
                 fontSize: 12.0,
                 color: Colors.grey,

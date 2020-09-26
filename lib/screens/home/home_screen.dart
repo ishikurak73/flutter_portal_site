@@ -21,12 +21,12 @@ class HomeScreen extends StatelessWidget {
         SliverAppBar(
             pinned: true,
             backgroundColor: Color(0xffFFFAFA),
-            expandedHeight: 245,
+            expandedHeight: 242,
             flexibleSpace: FlexibleSpaceBar(
                 background: Container(
                     child: Column(children: [Login(), PickUpNews(), Menu1()]))),
             bottom: PreferredSize(
-                preferredSize: Size.fromHeight(-8), child: Menu2())),
+                preferredSize: Size.fromHeight(-6), child: Menu2())),
         SliverToBoxAdapter(
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
